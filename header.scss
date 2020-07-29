@@ -1,0 +1,19 @@
+.header {
+  overflow: hidden;
+
+  li {
+    float: right;
+    list-style-type: none;
+  }
+
+  a {
+    display: block;
+    padding: 10px 10px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
