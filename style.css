@@ -1,9 +1,19 @@
 
+/* Stylesheet for Index Page */
+
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
 #logo {
     margin-top: 180px;
 }
 .searchbar {
-    width: 575px;
+    min-width: 90%;
+
     border-radius: 30px;
     border: 1px solid lightgray;
     height: 45px;
@@ -15,18 +25,75 @@
 .searchbar:hover {
     box-shadow: 1px 1px 8px 1px lightgray;
 }
-#button{
-    margin-top: 10px;
-}
+
 .buttons{
     background-color: #f5f5f5;
     border:none;
     color:#707070;
     font-size:16px;
-    padding: 15px 25px;
-    border-radius:8px;
+    padding: 10px 20px;
+    border-radius:6px;
+    outline: none;
 }
 .buttons:hover{
-    box-shadow: 1px 1px 6px 1px lightgray;
     border: 1px solid lightgray;
+}
+
+/* Stylesheet for advanced Search Page */
+
+.link_appbar {
+    text-decoration: none;
+    color:black ;
+    float: right ;
+    font-size: 18px;
+    padding-right: 40px
+}
+.link_appbar:hover {
+    text-decoration: underline;
+}
+
+.googimg {
+
+    margin: 15px;
+    width: 105px;
+    height: 35px;
+}
+.googbar {
+    height:70px;
+    background:#f1f1f1;
+    border:1px solid lightgrey
+}
+.appbar {
+    padding-left :50px;
+    padding-bottom: 15px;
+    color: #d93025;
+    font-size: x-large;
+    margin-top: 30px;
+    border-bottom:1px solid lightgrey;
+}
+
+form {
+    background: white;
+    padding: 50px;
+    width: 50%;
+    max-width: calc(100% - 60px);
+}
+.form-element{
+    display: flex;
+    margin-bottom: 10px;
+}
+.textinput{
+    height: 35px;
+    width: 75%;
+    font-size: large;
+}
+.textinput:focus {
+    outline:none;
+    border: 1px ;
+    box-shadow:0 0 3px blue;
+}
+.form-element span{
+    width: 30%;
+    height: 35px;
+    padding-top: 10px;
 }
