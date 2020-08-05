@@ -93,6 +93,11 @@ body{
     height: 35px;
     padding-top: 10px;
 }
+.subSearch{
+    float: right;
+    padding: 5px;
+    font-size: large
+}
 
 @media (max-width: 599px) {
 
@@ -106,11 +111,11 @@ body{
         background: indigo;
     }
     #logo {
-        margin-top: 150px;
+        margin-top: 120px;
     }
     .buttons{
         font-size:14px;
-        padding: 7px 15px;
+        padding: 5px 12px;
         border-radius:6px;
     }
     .searchhead a {
@@ -120,6 +125,30 @@ body{
     .spanCol {
         color: white;
         font-size: 16px;
+    }
+
+    /* Multimedia Stylesheet for advanced Search Page */
+    .form-element{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    .textinput{
+        height: 30px;
+        width: 100%;
+        padding-right: 50px;
+
+    }
+
+    .form-element span{
+        width: 100%;
+        height: 20px;
+
+    }
+    .subSearch{
+        float: right;
+        padding: 5px;
+        margin: 20px;
     }
 }
 
