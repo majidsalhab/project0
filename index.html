@@ -2,19 +2,21 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="header.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="header.css">
     </head>
-    <body>
+    <body id="searchbody">
         <center>
-            <div class="header">
+            <div class="header" >
                 <ul>
-                    <li><a href="imageSearch.html">Image Search</a></li>
-                    <li><a href="advancedSearch.html">Advanced Search</a></li>
+                    <li><a href="imageSearch.html"><span class="spanCol">Image Search</span></a></li>
+                    <li><a href="advancedSearch.html"><span class="spanCol">Advanced Search</span></a></li>
                 </ul>
             </div>
+
             <div id="logo">
-                <img src="googlelogo.png" alt="Pix">
+                <img id="logimg" src="googlelogo.png" alt="Pix">
             </div>
             <div>
                 <form ACTION="https://google.com/search">
@@ -25,6 +27,7 @@
                         <input class="buttons" type="submit" value="Google Search">
                         <input class="buttons" type="submit" name="btnI" value="I'm Feeling Lucky">
                     </div>
+
                 </form>
             </div>
         </center>
