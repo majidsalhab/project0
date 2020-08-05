@@ -128,10 +128,24 @@ body{
     }
 
     /* Multimedia Stylesheet for advanced Search Page */
+    .appbar {
+        padding-left :30px;
+        padding-bottom: 5px;
+        color: #d93025;
+        font-size: large;
+        margin-top: 20px;
+        border-bottom:1px solid lightgrey;
+    }
+
+    .advform {
+        padding: 30px;
+
+    }
+
     .form-element{
         display: flex;
         flex-direction: column;
-        margin-bottom: 5px;
+        margin-bottom: 1px;
     }
     .textinput{
         height: 30px;
