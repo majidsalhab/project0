@@ -1,7 +1,7 @@
 .header {
   overflow: hidden; }
   .header li {
-    
+    float: right;
     list-style-type: none; }
   .header a {
     display: block;
